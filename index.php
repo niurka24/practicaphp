@@ -6,18 +6,23 @@
         <link type="text/css" href="css_login.css" rel="stylesheet"/>
     </head>
     <body>
-        <form>
-            <table>
-                <tr>
-                    <td><input type="text" placeholder="Ingresé Usuario"></td>
-                </tr>
-                <tr>
-                    <td><input type="text" placeholder="Ingresé Contraseña"></td>
-                </tr>
-                <tr>
-                    <td><button type="submit">Ingresar</button> <button type="submit">Refrescar</button></td>
-                </tr>
-            </table>
-        </form>
+        <div>
+            <div></div>
+            <div>
+            <form>
+                <table>
+                    <tr>
+                        <td><input type="text" placeholder="Ingresé Usuario"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Ingresé Contraseña"></td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit">Ingresar</button> <button type="submit">Refrescar</button></td>
+                    </tr>
+                </table>
+            </form>
+            </div>
+        </div>
     </body>
 </html>
