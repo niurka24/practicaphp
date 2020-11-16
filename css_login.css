@@ -5,36 +5,91 @@
 html {
     width: 100%;
     height: 100%;
+    /*background-image: -moz-linear-gradient(blue, #111);*/
+}
+body {
+    /*width: 100%;
+    height: 100%;*/
     background-image: -moz-linear-gradient(blue, #111);
 }
-body div {
+body div#divlogin {
     margin: 100px auto auto auto;
     width: 780px;
     height: 480px;
-    background-color: #387;
+    background-color: #087;
     border-radius: 18px;
     box-shadow: #FFF 1px -1px 2px 1px;
+    display: flex;
+    /*box-sizing: border-box*/
 }
-body div div {
+div#divimg {
     background-color: #ccc;
-    width: 340px;
+    width: 360px;
+    border-bottom-left-radius: 18px;
     border-bottom-right-radius: 0;
+    border-top-left-radius: 18px;
     border-top-right-radius: 0;
     margin: 0;
-    background-image: url(img/fondo-login.webp);
+    background: url(img/fondo-login.webp) #000 no-repeat;
 }
-body div form {
-    /*margin: 180px auto auto auto;*/
-    width: 400px;
-    height: 360px;
-    background-color: #F87;
-    display: flex;
+div#divfrm {
+    background-color: #ccc;
+    width: 420px;
+    height: 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 18px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 18px;
+    margin: 0 auto auto auto;
+    padding: 40px 20px 20px 20px;
+    box-sizing: border-box;
+}
+div#divfrm div {
+    font: 24px "Trebuchet MS", sans-serif;
+    color: #000;
+    width: 70px;
+    height: 32px;
+    /*border-bottom-left-radius: 0;
+    border-top-left-radius: 0;*/
+    margin: 0 auto auto auto;
+    /*padding: 40px 20px 20px 20px;
+    box-sizing: border-box;*/
+}
+div#divfrm div#imglogin {
+    background: url(img/User-icon.png) #FFF no-repeat;
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+    /*padding: 12px;*/
+    margin: auto;
+    border-radius: 60px;
+    border: 2px #35A2EB solid
+}
+div#divfrm form {
+    margin: auto auto auto auto;
+}
+div#divfrm form table {
+    width: 320px;
+    height: 160px;
+    margin: auto;
+}
+div#divfrm form table tr td input{
+    width: 100%;
+    height: 38px;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+    
+    /*border-top-width: 2px;
+    border-top-style: solid;*/
+    border: 2px #35A2EB solid;
+    border-radius: 4px;
     
 }
-body div form table {
-    /*margin: 180px auto auto auto;*/
-    /*width: 480px;
-    height: 360px;
-    background-color: #F87;*/
-    
+div#divfrm form table tr td button{
+    width: 156px;
+    height: 38px;
+    box-sizing: border-box;
+    border: 2px #2C974B solid;
+    border-radius: 4px;
 }
