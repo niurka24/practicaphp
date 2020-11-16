@@ -7,10 +7,17 @@
     </head>
     <body>
         <form>
-            <input type="text" placeholder="Usuario">
-            <input type="text">
-            <button type="submit">Ingresar</button>
-            <button type="submit">Refrescar</button>
+            <table>
+                <tr>
+                    <td><input type="text" placeholder="Ingresé Usuario"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Ingresé Contraseña"></td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Ingresar</button> <button type="submit">Refrescar</button></td>
+                </tr>
+            </table>
         </form>
     </body>
 </html>
