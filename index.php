@@ -9,7 +9,6 @@
         <div id="divlogin">
             <div id="divimg"></div>
             <div id="divfrm">
-                
                 <div id="imglogin"></div>
                 <div>LOGIN</div>
                 <form>
